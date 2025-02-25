@@ -15,4 +15,4 @@ class Solution:
 nums = [2,2,1,1,1,2,2]
 majority = Solution()
 a = majority.majorityElement(nums)
-print(a)
+print(f"Majority element: {a}")
