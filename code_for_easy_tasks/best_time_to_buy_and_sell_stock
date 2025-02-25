@@ -32,6 +32,7 @@ class Solution:
         return min_profit if min_profit != float('inf') else 0
 
 profit = Solution()
-prices = [7,1,5,3,6,4]
+prices = [7,1,5,3,6,4,9]
 print(f"Max profit: {profit.maxProfit(prices)}")  # 输出 5
-print(f"Min profit: {profit.minProfit(prices)}")  # 输出 1（实际应为最小利润的逻辑）
+print(f"Min profit: {profit.minProfit(prices)}")
+
